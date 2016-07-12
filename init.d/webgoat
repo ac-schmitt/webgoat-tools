@@ -3,8 +3,8 @@
 # webgoat          Start up the WebGoat Application
 #
 # chkconfig: 345 98 10
-# description: WebGoat is an inherently insecure web application \
-#              Courtesy: http://bit.ly/29AlvpQ
+# description: WebGoat is a deliberately insecure JavaEE application to teach application security \
+#              Courtesy init.d script: http://bit.ly/29AlvpQ
 #
 SERVICE_NAME=WebGoat
 PATH_TO_JAR=/home/ec2-user/webgoat-container-7.0.1-war-exec.jar
